@@ -1,4 +1,4 @@
-<img alt="Pokedex" src="/xKloc/pokedex/blob/master/pokedex.gif?raw=true" />
+<img alt="Pokedex" src="https://raw.githubusercontent.com/xKloc/pokedex/master/pokedex.gif" />
 
 
 # [TypeScript Example](https://www.typescriptlang.org/)
