@@ -1,3 +1,6 @@
+<img alt="Pokedex" src="/xKloc/pokedex/blob/master/pokedex.gif?raw=true" />
+
+
 # [TypeScript Example](https://www.typescriptlang.org/)
 
 <p>
@@ -12,7 +15,6 @@
 ```sh
 npx create-react-native-app -t with-typescript
 ```
-
 
 TypeScript is a superset of JavaScript which gives you static types and powerful tooling in Visual Studio Code including autocompletion and useful inline warnings for type errors.
 
