@@ -2,7 +2,7 @@ import React from 'react';
 import { SafeAreaView, StatusBar, StyleSheet, LogBox } from 'react-native';
 import { Provider as PaperProvider } from 'react-native-paper';
 import { setConsole } from 'react-query';
-import List from './pokemon/List';
+import List from './components/List';
 
 LogBox.ignoreLogs(['Setting a timer']);
 
