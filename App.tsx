@@ -1,19 +1,31 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { SafeAreaView, StatusBar, StyleSheet, LogBox } from 'react-native';
+import { Provider as PaperProvider } from 'react-native-paper';
+import { setConsole } from 'react-query';
+import List from './pokemon/List';
+
+LogBox.ignoreLogs(['Setting a timer']);
+
+setConsole({
+  log: console.log,
+  warn: console.warn,
+  error: console.warn,
+});
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-    </View>
+    <PaperProvider>
+      <SafeAreaView style={styles.container}>
+        <List />
+      </SafeAreaView>
+    </PaperProvider >
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    marginHorizontal: 16,
+    marginTop: StatusBar.currentHeight || 0,
   },
 });
