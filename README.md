@@ -2,10 +2,10 @@
 This is a sample project using React Native, React Query, and the PokeAPI.
 
 ## Links
-[Create React Native App](https://github.com/expo/create-react-native-app) to generate the application.
-[React Query](https://react-query.tanstack.com/) for fetching data.
-[PokeAPI](https://pokeapi.co/) for supplying data.
-[React Native Paper](https://callstack.github.io/react-native-paper/) for list component.
+- [Create React Native App](https://github.com/expo/create-react-native-app) to generate the application.
+- [React Query](https://react-query.tanstack.com/) for fetching data.
+- [PokeAPI](https://pokeapi.co/) for supplying data.
+- [React Native Paper](https://callstack.github.io/react-native-paper/) for list component.
 
 ## How to use
 - `yarn ios` -- (`react-native run-ios`) Build the iOS App (requires a MacOS computer).
