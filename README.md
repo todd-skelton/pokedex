@@ -12,5 +12,5 @@ This is a sample project using React Native, React Query, and the PokeAPI.
 - `yarn android` -- (`react-native run-android`) Build the Android App.
 - `yarn web` -- (`expo start:web`) Run the website in your browser.
 
-# Output
+## Output
 <img alt="Pokedex" src="https://raw.githubusercontent.com/xKloc/pokedex/master/pokedex.gif" />
